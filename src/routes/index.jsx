@@ -5,13 +5,12 @@ import DefaultLayout from "../layouts/DefaultLayout";
 
 export const router = createBrowserRouter([
     {
-        element: <h1>Parent</h1>,
-        path : '/',
+        element: <DefaultLayout />,
         children: [
-        {
-          index:true,
-          element: <h2>Child</h2>
-        }
+            {
+                path: '/',
+                element: <Home />,
+            },
         ],
     },
 ]);

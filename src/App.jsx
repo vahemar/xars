@@ -3,9 +3,11 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
 
 function App() {
-  <ChakraProvider>
+  return (
+    <ChakraProvider>
     <RouterProvider router={router} />
-  </ChakraProvider>
+    </ChakraProvider>
+    )
 }
 
 export default App;
