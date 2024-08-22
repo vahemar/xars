@@ -5,7 +5,7 @@ function Attention() {
   return (
     <Flex p={4} w={'full'} bg={'#882423'} direction={'column'} justify={'center'} align={'center'}>
         <a href='tel:099690808'>
-        <Text textDecoration={'underline'} color={'#CACACA'} _hover={{color: 'white'}} transition={'0.2s'} cursor={'pointer'}>ՀԱՅՏԱՐԱՐՈՒԹՅՈՒՆ՝ պահանջվում է մանղալչի, ներկա գտնվելու դեպքում զանգահարեք 099 690808 </Text>
+        <Text textDecoration={'underline'} color={'#CACACA'} _hover={{color: 'white'}} transition={'0.2s'} cursor={'pointer'}>ՀԱՅՏԱՐԱՐՈՒԹՅՈՒՆ՝ պահանջվում է մանղալչի, հեռախոսահամար 099 690808 </Text>
         </a>
     </Flex> 
   )
