@@ -22,8 +22,8 @@ function Delivery() {
           <Text fontWeight={500} fontSize={'20px'}>Առաքման վճարը՝ 500 դրամ</Text>
         </Flex>
         <Flex p={4} w={'full'} justify={'center'} direction={'row'} wrap={'wrap'} gap={2} align={'center'}>
-          <Image src={deliveryMap1} w={'auto'} h={'auto'} />
-          <Image src={deliveryMap2} w={'auto'} h={'auto'} />
+          <Image src={deliveryMap1} borderRadius={'25px'} w={'auto'} h={'auto'} />
+          <Image src={deliveryMap2} borderRadius={'25px'} w={'auto'} h={'auto'} />
         </Flex>
       </Flex>
     </Flex>

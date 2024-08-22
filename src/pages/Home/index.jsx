@@ -3,10 +3,12 @@ import { Divider, Flex } from '@chakra-ui/react'
 import Workhours from './Workhours'
 import Building from './Building'
 import Delivery from './Delivery'
+import Attention from './Attention'
 
 function Home() {
   return (
-    <Flex p={2} gap={10} w={'full'} align={'center'} direction={'column'}>
+    <Flex p={2} gap={8} w={'full'} align={'center'} direction={'column'}>
+      <Attention />
       <Divider w={'full'}  borderColor={'#9A9A9A'} />
       <Workhours />
       <Divider w={'full'}  borderColor={'#9A9A9A'} />

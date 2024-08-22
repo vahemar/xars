@@ -22,7 +22,7 @@ function Header() {
       <Flex display={['none', 'none', 'none', 'flex', 'flex']} w={'full'} direction={'column'}>
         <Flex align={'center'} justify={'center'} overflow={'hidden'} direction={'column'} pos={'relative'} w={'full'} h={'100vh'}>
           <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'absolute', zIndex: '-1', objectFit: 'cover', clipPath: 'inset(0 0 70px 0)' }}>
-            <source src='/public/videos/videoplayback.mp4' type='video/mp4' />
+            <source src='/videos/videoplayback.mp4' type='video/mp4' />
           </video>
         </Flex>
         <Flex justify={'space-between'} color={'white'} pos={isSticky ? 'fixed' : 'absolute'} top={0} opacity={isSticky ? 0.5 : 1} transition={'0.5s ease'} w={'full'} bg={isSticky ? 'rgba(0, 0, 0, 0.7)' : 'transparent'} pb={4} pt={4} pr={8} pl={8}>
