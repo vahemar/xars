@@ -5,7 +5,7 @@ import xarsImage from '../../assets/svg/xarslogo.svg'
 function Footer() {
   return (
     <Flex w={'full'}>
-      <Flex w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={6} pt={8} mt={14} bg={'#6C2120'}>
+      <Flex  w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={12} pt={12}  bg={'#6C2120'}>
         <Flex direction={'column'} gap={2} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
           <Image src={xarsImage} cursor={'pointer'} id='#home' width={'150px'} height={'150px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
@@ -30,7 +30,7 @@ function Footer() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex w={'full'} display={['flex', 'flex', 'flex', 'none', 'none']} align={'center'} gap={4} direction={'column'} justify={'center'} pr={6} pl={4} pb={6} pt={8} mt={14} bg={'#6C2120'}>
+      <Flex w={'full'} display={['flex', 'flex', 'flex', 'none', 'none']} align={'center'} gap={4} direction={'column'} justify={'center'} pr={6} pl={4} pb={6} pt={8} bg={'#6C2120'}>
       <Flex direction={'column'} gap={2} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
           <Image src={xarsImage} cursor={'pointer'} id='#home' width={'150px'} height={'150px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>

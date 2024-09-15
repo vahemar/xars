@@ -1,9 +1,9 @@
 import { Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import building3 from '../../../assets/svg/xarslocation3.svg'
-import building2 from '../../../assets/svg/xarslocation1.svg'
-import building1 from '../../../assets/svg/xarslocation2.svg'
-import locationIcon from '../../../assets/svg/location.svg'
+import building3 from '../../../assets/png/xarslocation3.png'
+import building2 from '../../../assets/png/xarslocation1.png'
+import building1 from '../../../assets/png/xarslocation2.png'
+import locationIcon from '../../../assets/png/location.png'
 
 function Building() {
   return (
@@ -17,9 +17,9 @@ function Building() {
           </Flex>
       </Flex>
       <Flex wrap={'wrap'} justify={'center'} direction={'row'} gap={2} align={'center'}>
-        <Image borderRadius={'25px'} src={building1} />
-        <Image borderRadius={'25px'} src={building2} />
-        <Image borderRadius={'25px'} src={building3} />
+        <Image borderRadius={'10px'} src={building1} />
+        <Image borderRadius={'10px'} src={building2} />
+        <Image borderRadius={'10px'} src={building3} />
       </Flex>
     </Flex>
   )
