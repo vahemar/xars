@@ -47,6 +47,11 @@ import baykal from '../assets/png/baykal.png'
 import dobri from '../assets/png/dobri.png'
 import bonaqua from '../assets/png/bonaqua.png'
 import jermuk from '../assets/png/jermuk.png'
+import peperoni from '../assets/png/peperoni.png'
+import margarita from '../assets/png/margarita.png'
+import asorti from '../assets/png/asorti.png'
+import imeritakan from '../assets/png/imeritakan.png'
+import megrelakan from '../assets/png/megrelakan.png'
 
 export const menu = [
     {
@@ -118,6 +123,11 @@ export const menu = [
             {
                 id: 12, foodListNames: 'պիցցաներ', foodList: [
                     { id: 1, name: 'փոքր պիցցա ', price: '500 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={poqrpica} />},
+                    { id: 2, name: 'պեպերոնի 6 կտոր ', price: '2000 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={peperoni} />},
+                    { id: 3, name: 'մարգարիտա 6 կտոր ', price: '1900 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={margarita} />},
+                    { id: 4, name: 'ասորտի 6 կտոր ', price: '2100 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={asorti} />},
+                    { id: 5, name: 'իմերիթական 6 կտոր ', price: '1900 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={imeritakan} />},
+                    { id: 6, name: 'մեգրելական 6 կտոր ', price: '2000 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={megrelakan} />},
                 ]
             },
         ]
