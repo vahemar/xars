@@ -8,8 +8,8 @@ import Attention from './Attention'
 function Home() {
   return (
     <Flex p={2} gap={8} w={'full'} align={'center'} direction={'column'}>
-      <Attention />
-      <Divider w={'full'}  borderColor={'#9A9A9A'} />
+      {/* <Attention /> */}
+      {/* <Divider w={'full'}  borderColor={'#9A9A9A'} /> */}
       <Workhours />
       <Divider w={'full'}  borderColor={'#9A9A9A'} />
       <Building />
