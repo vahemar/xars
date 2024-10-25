@@ -9,7 +9,7 @@ function Home() {
   return (
     <Flex p={2} gap={8} w={'full'} align={'center'} direction={'column'}>
       {/* <Attention /> */}
-      {/* <Divider w={'full'}  borderColor={'#9A9A9A'} /> */}
+      <Divider pt={8} w={'full'}  borderColor={'#9A9A9A'} />
       <Workhours />
       <Divider w={'full'}  borderColor={'#9A9A9A'} />
       <Building />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Th, TableContainer, Thead, Tbody, Table, Tr, Td, Divider } from '@chakra-ui/react'
+import { Flex, Text, Divider } from '@chakra-ui/react'
 
 function Workhours() {
     return (
