@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+**/SF-Pro.dmg
+**/iTunes64Setup.exe
+
 
 # Editor directories and files
 .vscode/*
