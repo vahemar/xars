@@ -33,12 +33,12 @@ function Header() {
           </video>
         </Flex>
       )}
-      <Flex justify={'space-between'} color={'white'} pos={'fixed'} top={0} w={'full'} bg={isSticky ? 'rgba(0, 0, 0, 0.7)' : 'transparent'} 
+      <Flex justify={'space-between'} color={'white'} pos={'fixed'} top={0} w={'full'} bg={isSticky ? 'rgba(0, 0, 0, 0.3)' : 'transparent'} 
         transition={'0.5s ease'} pb={4} pt={4} pr={8} pl={8} zIndex={9999}>
         <Flex direction={'row'} gap={2} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
-          <Image transition={'0.1s'} border={isSticky ? '' : '2px solid black'} borderRadius={'360px'} src={xarsImage} cursor={'pointer'} id='#home' 
+          <Image transition={'0.1s'} border={isSticky ? '' : ''} borderRadius={'360px'} src={xarsImage} cursor={'pointer'} id='#home' 
             width={'75px'} height={'75px'} fill='#FFF' stroke='#FFF' />
-          <Text transition={'0.2s'} color={isSticky ? 'gray.200' : 'gray.200'} fontWeight={500} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
+          {/* <Text transition={'0.2s'} color={isSticky ? 'gray.200' : 'gray.200'} fontWeight={500} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text> */}
         </Flex>
         <Flex gap={6}>
           <Flex direction={'row'} align={'center'}>
