@@ -115,8 +115,7 @@ export const menu = [
             {
                 id: 6, foodListNames: 'Հոթ-դոգ', foodList: [
                     { id: 1, name: 'հոթ-դոգ', price: '200 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={minihotdog} /> },
-                    { id: 2, name: 'հոթ-դոգ (ֆրիով) ', price: '300 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={iqibir} /> },
-                    { id: 3, name: 'հոթ-դոգ', price: '450 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={hotdog} /> },
+                    { id: 2, name: 'հոթ-դոգ', price: '450 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={hotdog} /> },
                 ]
             },
             {
