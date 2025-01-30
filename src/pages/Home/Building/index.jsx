@@ -1,9 +1,9 @@
 import { Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import building3 from '../../../assets/png/xarslocation3.png'
-import building2 from '../../../assets/png/xarslocation1.png'
-import building1 from '../../../assets/png/xarslocation2.png'
-import locationIcon from '../../../assets/png/location.png'
+import building3 from '../../../assets/png/xarslocation3.webp'
+import building2 from '../../../assets/png/xarslocation1.webp'
+import building1 from '../../../assets/png/xarslocation2.webp'
+import locationIcon from '../../../assets/png/location.webp'
 
 function Building() {
   return (

@@ -1,7 +1,7 @@
 import { Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import deliveryMap1 from '../../../assets/png/yerevanxars 1.png'
-import deliveryMap2 from '../../../assets/png/yerevanmalacyaxars 1.png'
+import deliveryMap1 from '../../../assets/png/yerevanxars 1.webp'
+import deliveryMap2 from '../../../assets/png/yerevanmalacyaxars 1.webp'
 
 function Delivery() {
   return (
