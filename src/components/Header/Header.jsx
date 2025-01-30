@@ -47,7 +47,7 @@ function Header() {
               {location.pathname === '/menu' ? 'Գլխավոր էջ' : 'Մենյու'}
             </Text>
           </Flex>
-          <Flex gap={6} pt={2} pb={2} pl={6} pr={6} direction={'row'} align={'center'} borderRadius={'7px'} bg={'#6C2120'}>
+          <Flex gap={6} pt={2} pb={2} pl={6} pr={6} direction={'row'} align={'center'} borderRadius={'7px'} bg={'#742726'}>
             <Flex direction={'row'} align={'center'} gap={'10px'}>
               {/* <Image src={callIcon} stroke='#F3E6E6' fill='#F3E6E6' width={'20px'} height={'20px'} /> */}
               <Flex lineHeight={'20px'} color={'#F3E6E6'} direction={'column'}>
