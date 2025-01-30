@@ -160,23 +160,23 @@ export const menu = [
         id: 2, mainChannel: 'Ըմպելիք', secondaryChannel: [
             {
                 id: 1, foodListNames: 'Coca-Cola', foodList: [
-                    { id: 1, name: 'Coca-Cola 0.25լ', price: '250 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'60px'} src={kola025} /> },
-                    { id: 2, name: 'Coca-Cola 0.5լ', price: '350 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'80px'} src={kola05} /> },
-                    { id: 3, name: 'Coca-Cola 1լ', price: '600 AMD'  , img: <Image h={'90px'} borderRadius={'15px'} w={'56px'} src={kola1} />},
+                    { id: 1, name: 'Coca-Cola 0.25լ', price: '300 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'60px'} src={kola025} /> },
+                    { id: 2, name: 'Coca-Cola 0.5լ', price: '400 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'80px'} src={kola05} /> },
+                    { id: 3, name: 'Coca-Cola 1լ', price: '650 AMD'  , img: <Image h={'90px'} borderRadius={'15px'} w={'56px'} src={kola1} />},
                 ]
             },
             {
                 id: 2, foodListNames: 'fanta', foodList: [
-                    { id: 1, name: 'fanta 0.25լ', price: '250 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'80px'} src={fanta025} /> },
-                    { id: 2, name: 'fanta 0.5լ', price: '350 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'100px'} src={fant05} /> },
-                    { id: 3, name: 'fanta 1լ', price: '600 AMD' , img: <Image h={'90px'} borderRadius={'15px'} w={'88px'} src={fanta1} /> },
+                    { id: 1, name: 'fanta 0.25լ', price: '300 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'80px'} src={fanta025} /> },
+                    { id: 2, name: 'fanta 0.5լ', price: '400 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'100px'} src={fant05} /> },
+                    { id: 3, name: 'fanta 1լ', price: '650 AMD' , img: <Image h={'90px'} borderRadius={'15px'} w={'88px'} src={fanta1} /> },
                 ]
             },
             {
                 id: 3, foodListNames: 'sprite', foodList: [
-                    { id: 1, name: 'sprite 0.25լ', price: '250 AMD' , img: <Image h={'90px'} borderRadius={'15px'} w={'90px'} src={sprite025} /> },
-                    { id: 2, name: 'sprite 0.5լ', price: '350 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'80px'} src={sprite05} />},
-                    { id: 3, name: 'sprite 1լ', price: '600 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'80px'} src={sprite1} /> },
+                    { id: 1, name: 'sprite 0.25լ', price: '300 AMD' , img: <Image h={'90px'} borderRadius={'15px'} w={'90px'} src={sprite025} /> },
+                    { id: 2, name: 'sprite 0.5լ', price: '400 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'80px'} src={sprite05} />},
+                    { id: 3, name: 'sprite 1լ', price: '650 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'80px'} src={sprite1} /> },
                 ]
             },
             {
@@ -202,7 +202,7 @@ export const menu = [
             },
             {
                 id: 8, foodListNames: 'Добрый', foodList: [
-                    { id: 1, name: 'Добрый 0.3լ', price: '350 AMD' , img: <Image h={'100px'} borderRadius={'15px'} w={'80px'} src={dobri} />},
+                    { id: 1, name: 'Добрый 0.3լ', price: '400 AMD' , img: <Image h={'100px'} borderRadius={'15px'} w={'80px'} src={dobri} />},
                 ]
             },
             {
