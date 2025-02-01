@@ -1,11 +1,13 @@
 import React from 'react'
 import { Flex, Text, Image } from '@chakra-ui/react'
 import xarsImage from '../../assets/svg/xarslogo.svg'
+import instagramXars from '../../assets/svg/icon-social-isnatgram.svg'
+
 
 function Footer() {
   return (
     <Flex w={'full'}>
-      <Flex  w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={12} pt={12}  bg={'#742726'}>
+      <Flex w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={12} pt={12}  bg={'#742726'}>
         <Flex direction={'column'} gap={'4px'} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
           <Image src={xarsImage} cursor={'pointer'} id='#home' width={'150px'} height={'150px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
@@ -27,6 +29,9 @@ function Footer() {
                 <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>(093) 730 771</Text>
               </a>
             </Flex>
+          </Flex>
+          <Flex pt={4}>
+            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
           </Flex>
         </Flex>
       </Flex>
@@ -52,6 +57,9 @@ function Footer() {
                 <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>(093) 730 771</Text>
               </a>
             </Flex>
+          </Flex>
+          <Flex pt={4}>
+            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
           </Flex>
         </Flex>
       </Flex>
