@@ -37,7 +37,7 @@ function Footer() {
       </Flex>
       <Flex w={'full'} display={['flex', 'flex', 'flex', 'none', 'none']} align={'center'} gap={4} direction={'column'} justify={'center'} pr={6} pl={4} pb={6} pt={8} bg={'#742726'}>
       <Flex direction={'column'} gap={'4px'} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
-          <Image src={xarsImage} cursor={'pointer'} id='#home' width={'150px'} height={'150px'} fill='#FFF' stroke='#FFF' />
+          <Image src={xarsImage} cursor={'pointer'} id='#home' width={'120px'} height={'120px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
         </Flex>
         <Flex align={'center'} direction={'column'}>

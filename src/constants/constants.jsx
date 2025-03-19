@@ -66,10 +66,10 @@ export const menu = [
         id: 1, mainChannel: 'Մսեղեն', secondaryChannel: [
             {
                 id: 1, foodListNames: 'խորոված', foodList: [
-                    { id: 1, name: '1 բաժին (շիշ) կարտոֆիլ', price: '500 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={kartofil} /> },
-                    { id: 2, name: '1 կգ հավի բուդ', price: '2000 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={havibud} /> },
-                    { id: 3, name: '1 կգ հավի թև', price: '2200 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={havitev} />  },
-                    { id: 5, name: '1 կգ կուպատի', price: '3300 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={kupati} />},
+                    { id: 1, name: '1 բաժին (շիշ) խորոված կարտոֆիլ', price: '500 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={kartofil} /> },
+                    { id: 2, name: '1 կգ խորոված հավի բուդ', price: '2000 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={havibud} /> },
+                    { id: 3, name: '1 կգ խորոված հավի թև', price: '2200 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={havitev} />  },
+                    { id: 5, name: '1 կգ խորոված կուպատի', price: '3300 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={kupati} />},
                     { id: 4, name: '1 կգ խորոված փափուկ', price: '3300 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={papuk} /> },
                     { id: 6, name: '1 կգ խորոված չալաղաջ', price: '3800 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={chalaxaj} />  },
                     { id: 7, name: '1 կգ խորոված մատ', price: '3800 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={mat} />  },

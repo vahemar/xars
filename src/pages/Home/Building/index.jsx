@@ -7,7 +7,7 @@ import locationIcon from '../../../assets/png/location.webp'
 
 function Building() {
   return (
-    <Flex p={2} w={'full'} gap={10} direction={'column'} justify={'center'} align={'center'}>
+    <Flex p={4} w={'full'} gap={10} direction={'column'} justify={'center'} align={'center'}>
       <Flex direction={'column'} align={'center'}>
         <Text fontWeight={500} fontSize={'30px'}>ՇԻՆՈՒԹՅՈՒՆԸ</Text>
           <Flex color={'#F3E6E6'} direction={'column'}>
