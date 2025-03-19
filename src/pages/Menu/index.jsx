@@ -67,7 +67,7 @@ function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}   bgImage={isIOS ? highResBackground : backgroundWoodImageIOS} bgSize="cover" bgRepeat="repeat" bgPosition="center center" bgAttachment="scroll" w="full" p={10}>
+      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}   bgImage={isIOS ? highResBackground : backgroundWoodImageIOS} bgSize="100% 100%" bgRepeat="repeat" bgPosition="center center" bgAttachment="scroll" w="full" p={10}>
         <Flex gap={10} direction={'column'} align={'center'} w={'full'} pt={10}>
           <Text color={'white'} fontFamily={'Roboto'} pt={10} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.8'} p={6} w={'full'} bg={'#F9F9F9'}>
