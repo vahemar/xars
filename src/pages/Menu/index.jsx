@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flex, Text } from '@chakra-ui/react';
 import backgroundWoodImage from '../../assets/png/backgroundWood.webp';
+import highResBackground from '../../assets/png/backgroundWood.webp';
 import backgroundWoodImageIOS from '../../assets/png/backgroundWoodIOS.webp';
 import { menu } from '../../constants/constants';
 import { useLocation } from 'react-router';
