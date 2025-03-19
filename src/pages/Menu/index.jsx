@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flex, Text } from '@chakra-ui/react';
 import backgroundWoodImage from '../../assets/png/backgroundWood.webp';
+import backgroundWoodImageIOS from '../../assets/png/backgroundWoodIOS.webp';
 import { menu } from '../../constants/constants';
 import { useLocation } from 'react-router';
 
@@ -64,7 +65,7 @@ function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex display={['flex', 'flex', 'flex', 'none', 'none']} bgImage={backgroundWoodImage} bgSize={'cover'} bgRepeat={'repeat'} bgPosition={'center center'} bgAttachment={'fixed'} gap={20} direction={'column'} w={'full'} p={10}>
+      <Flex display={['flex', 'flex', 'flex', 'none', 'none']} bgImage={backgroundWoodImageIOS} bgSize={'cover'} bgRepeat={'repeat'} bgPosition={'center center'} bgAttachment={'fixed'} gap={20} direction={'column'} w={'full'} p={10}>
         <Flex gap={10} direction={'column'} align={'center'} w={'full'} pt={10}>
           <Text color={'white'} fontFamily={'Roboto'} pt={10} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.8'} p={6} w={'full'} bg={'#F9F9F9'}>

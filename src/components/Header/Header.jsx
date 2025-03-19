@@ -70,7 +70,7 @@ function Header() {
             <Flex direction={'row'} gap={4} align={'center'} transition={'0.3s'}>
               {location.pathname === '/menu' && (
                 <>
-                  <Image src={searchIcon} transition="0.3s" onClick={() => setOpenSearch(!openSearch)} />
+                  {/* <Image src={searchIcon} transition="0.3s" onClick={() => setOpenSearch(!openSearch)} />
                   {openSearch && (
                     <Box pos="relative" overflow="hidden">
                       <Input transition="0.3s" h="34px" bg="#E1E1E1" borderColor="transparent" color="black" onChange={handleSearch} value={inputValue} onKeyDown={handleSearchSubmit} />
@@ -87,8 +87,8 @@ function Header() {
                           ))}
                         </Box>
                       )}
-                    </Box>
-                  )}
+                    </Box> */}
+                  {/* )} */}
                 </>
               )}
 
@@ -127,9 +127,9 @@ function Header() {
           </Flex>
         )}
         <Flex align={'center'} transition={'0.3s'} gap={4} justify={'space-between'} color={'white'} pos={'fixed'} top={0} w={'full'} bg={isSticky ? 'rgba(0, 0, 0, 0.3)' : 'transparent'}
-          pb={4} pt={4} pr={4} pl={4} zIndex={9999}>
+          pb={2} pt={2} pr={8} pl={6} zIndex={9999}>
           <Flex direction={'row'} gap={2} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
-            <Image borderRadius={'360px'} border={'2px solid black'} src={xarsImage} cursor={'pointer'} id='#home' width={'75px'} height={'75px'} fill='#FFF' stroke='#FFF' />
+            <Image borderRadius={'360px'} src={xarsImage} cursor={'pointer'} id='#home' width={'65px'} height={'65px'} fill='#FFF' stroke='#FFF' />
           </Flex>
           <Flex>
             <Text textAlign={'center'} cursor={'pointer'} fontWeight={500} transition={'0.2s'} _hover={{ color: '#DE2522' }}
