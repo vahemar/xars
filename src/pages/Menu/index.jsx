@@ -23,7 +23,16 @@ function Menu() {
 
   return (
     <Flex w={'full'}>
-      <Flex display={['none', 'none', 'none', 'flex', 'flex']} bgImage={backgroundWoodImage} bgSize={'cover'} bgRepeat={'repeat'} bgPosition={'center center'} bgAttachment={'fixed'} gap={20} direction={'column'} w={'full'} p={16} >
+      <Flex display={['none', 'none', 'none', 'flex', 'flex']}
+  bgImage={backgroundWoodImage}
+  bgSize="cover"      // Ensures full coverage without repeating
+  bgRepeat="no-repeat"  // Prevents repeating background
+  bgPosition="center"  // Centers the image
+  bgAttachment="fixed"  // Keeps it fixed while scrolling
+  gap={20}
+  direction="column"
+  w="full"
+  p={16} >
         <Flex gap={12} direction={'column'} align={'center'} w={'full'} p={12}>
           <Text color={'white'} fontFamily={'Roboto'} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.9'} p={6} w={'full'} bg={'#F9F9F9'}>
@@ -67,13 +76,20 @@ function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}   bgImage={isIOS ? highResBackground : backgroundWoodImageIOS} bgSize="100% 100%" bgRepeat="repeat" bgPosition="center center" bgAttachment="scroll" w="full" p={10}>
+      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}
+  bgImage={isIOS || backgroundWoodImage}
+  bgSize="cover"      // Ensures full coverage without gaps
+  bgRepeat="no-repeat"  // Prevents repeating
+  bgPosition="center"
+  bgAttachment="fixed"  // Keeps it fixed on supported devices
+  w="full"
+  p={10}>
         <Flex gap={10} direction={'column'} align={'center'} w={'full'} pt={10}>
           <Text color={'white'} fontFamily={'Roboto'} pt={10} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.8'} p={6} w={'full'} bg={'#F9F9F9'}>
             <Flex gap={10} fontWeight={600} color={'black'} direction={'column'} w={'full'} justify={'space-around'}>
               {filteredMenu.map((item) => (
-                <Flex bg={'#FFFEF0'} w={'full'} gap={4} key={item.id} direction={'column'} align={'center'}>
+                <Flex bg={'#F9F9F9'} w={'full'} gap={4} key={item.id} direction={'column'} align={'center'}>
                   <Text fontSize={'25px'}>{item.mainChannel}</Text>
                   <Flex pt={4} w={'full'} direction={'column'}>
                     <Flex justify={'center'} align={'flex-start'} direction={'row'} wrap={'wrap'} gap={10} w={'full'}>

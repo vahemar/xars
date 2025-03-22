@@ -63,7 +63,7 @@ import panir from '../assets/png/panir.webp';
 
 export const menu = [
     {
-        id: 1, mainChannel: 'Մսեղեն', secondaryChannel: [
+        id: 1, mainChannel: 'Ուտեստներ', secondaryChannel: [
             {
                 id: 1, foodListNames: 'խորոված', foodList: [
                     { id: 1, name: '1 բաժին (շիշ) խորոված կարտոֆիլ', price: '500 AMD', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={kartofil} /> },
@@ -128,10 +128,10 @@ export const menu = [
             },
             {
                 id: 8, foodListNames: 'աջարական', foodList: [
-                    { id: 1, name: 'մսով ', price: '1200 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={ajarakanmsov} />},
-                    { id: 2, name: 'վիչինայով ', price: '1300 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakanvichina} />},
-                    { id: 3, name: '2 ձվով ', price: '1100 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan2} />},
-                    { id: 4, name: '1 ձվով ', price: '1000 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan1} />},
+                    { id: 1, name: 'աջարական մսով ', price: '1200 AMD' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={ajarakanmsov} />},
+                    { id: 2, name: 'աջարական վիչինայով ', price: '1300 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakanvichina} />},
+                    { id: 3, name: 'աջարական 2 ձվով ', price: '1100 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan2} />},
+                    { id: 4, name: 'աջարական 1 ձվով ', price: '1000 AMD' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan1} />},
                 ]
             },
             {
