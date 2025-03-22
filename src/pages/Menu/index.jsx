@@ -77,7 +77,7 @@ function Menu() {
         </Flex>
       </Flex>
       <Flex display={['flex', 'flex', 'flex', 'none', 'none']}
-  bgImage={isIOS || backgroundWoodImage}
+  bgImage={backgroundWoodImage}
   bgSize="cover"      // Ensures full coverage without gaps
   bgRepeat="no-repeat"  // Prevents repeating
   bgPosition="center"
