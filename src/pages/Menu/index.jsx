@@ -1,12 +1,15 @@
 import React from 'react';
 import { Flex, Text } from '@chakra-ui/react';
 import backgroundWoodImage from '../../assets/png/backgroundWood.webp';
+import backgroundWoodImage2 from '../../assets/png/backgroundWood.jpg';
 import highResBackground from '../../assets/png/backgroundWood.webp';
 import backgroundWoodImageIOS from '../../assets/png/backgroundWoodIOS.webp';
 import { menu } from '../../constants/constants';
 import { useLocation } from 'react-router';
 
+
 function Menu() {
+  
   const location = useLocation();
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   const searchQuery = location.state?.searchQuery || '';
@@ -77,7 +80,7 @@ function Menu() {
         </Flex>
       </Flex>
       <Flex display={['flex', 'flex', 'flex', 'none', 'none']}
-  bgImage={backgroundWoodImage}
+  bgImage={backgroundWoodImage2}
   bgSize="cover"      // Ensures full coverage without gaps
   bgRepeat="no-repeat"  // Prevents repeating
   bgPosition="center"
