@@ -13,7 +13,6 @@ function App() {
           <title>Ղարս Թոնրատուն</title>
           <meta name="description" content="Ղարս Թոնրատուն - որակյալ սնունդ, մատչելի գներ Ղարս թոնրատանը" />
           <meta name="keywords" content="Ղարս Թոնրատուն, ձեր սիրելի թոնրատունը՝ << 9, 7 Օհանովի փողոց, Երևան >> հասցեում" />
-          <meta name="author" content="Your Name" />
         </Helmet>
         <SpeedInsights />
         <Analytics />
