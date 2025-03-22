@@ -4,6 +4,7 @@ import Workhours from './Workhours'
 import Building from './Building'
 import Delivery from './Delivery'
 import Attention from './Attention'
+import Location from './Location'
 
 function Home() {
   return (
@@ -12,9 +13,11 @@ function Home() {
       <Divider pt={8} w={'full'}  borderColor={'#9A9A9A'} />
       <Workhours />
       <Divider w={'full'}  borderColor={'#9A9A9A'} />
-      <Building />
+    <Location/>
       <Divider w={'full'}  borderColor={'#9A9A9A'} />
-      <Delivery />
+      {/* <Delivery /> */}
+      <Building />
+    
     </Flex>
   )
 }

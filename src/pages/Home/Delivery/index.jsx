@@ -2,6 +2,7 @@ import { Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import deliveryMap1 from '../../../assets/png/yerevanxars 1.webp'
 import deliveryMap2 from '../../../assets/png/yerevanmalacyaxars 1.webp'
+import MapComponent from '../../../components/MapComponent/MapComponent'
 
 function Delivery() {
   return (
@@ -26,6 +27,7 @@ function Delivery() {
           <Image src={deliveryMap2} borderRadius={'15px'} w={'auto'} h={'auto'} />
         </Flex>
       </Flex>
+      <MapComponent />
     </Flex>
   )
 }
