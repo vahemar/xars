@@ -32,7 +32,7 @@ function Footer() {
             </Flex>
           </Flex>
           <Flex pt={4} gap={2}>
-          <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
+          <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')}/>
             <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
           </Flex>
         </Flex>

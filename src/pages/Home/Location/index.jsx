@@ -4,7 +4,7 @@ import MapComponent from "../../../components/MapComponent/MapComponent";
 
 const Location = () => {
     return (
-        <Flex w={'full'} direction={'column'}>
+        <Flex w={'full'} direction={'column'} justify={'center'} pb={2} >
             <MapComponent />
         </Flex>
     );
