@@ -43,8 +43,8 @@ function Menu() {
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>
-                                  <Text>{foodItem.name}</Text>
-                                  <Text fontSize={'21px'}>{foodItem.price}</Text>
+                                  <Text fontSize={'20px'}>{foodItem.name}</Text>
+                                  <Text fontSize={'17px'}>{foodItem.price}</Text>
                                 </Flex>
                                 {foodItem.img}
                               </Flex>
@@ -94,8 +94,8 @@ function Menu() {
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>
-                                  <Text>{foodItem.name}</Text>
-                                  <Text fontSize={'21px'}>{foodItem.price}</Text>
+                                  <Text fontSize={'20px'}>{foodItem.name}</Text>
+                                  <Text fontSize={'17px'}>{foodItem.price}</Text>
                                 </Flex>
                                 {foodItem.img}
                               </Flex>
