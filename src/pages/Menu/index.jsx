@@ -31,19 +31,21 @@ function Menu() {
             <Flex gap={10} fontWeight={600} color={'black'} direction={'column'} w={'full'} justify={'space-around'}>
               {filteredMenu.map((item) => (
                 <Flex bg={'#F9F9F9'} w={'full'} gap={4} key={item.id} direction={'column'} align={'center'}>
-                  <Text fontSize={'25px'}>{item.mainChannel}</Text>
+                  <Text fontSize={'28px'}>{item.mainChannel}</Text>
                   <Flex pt={8} w={'full'} direction={'column'}>
                     <Flex justify={'center'} align={'flex-start'} direction={'row'} wrap={'wrap'} gap={10} w={'full'}>
                       {item.secondaryChannel.map((itemSecond) => (
                         <Flex border={'2px solid #D8D4D4'} borderRadius={'25px'} gap={2} align={'center'} direction={'column'} w={'320px'} key={itemSecond.id}>
-                          <Text pt={4} fontSize={'21px'}>
+                          <Text pt={4} fontSize={'24px'}>
                             {itemSecond.foodListNames && itemSecond.foodListNames.charAt(0).toUpperCase() + itemSecond.foodListNames.slice(1)}
                           </Text>
                           <Flex pt={4} direction={'column'} w={'full'}>
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>
-                                  <Text fontSize={'20px'}>{foodItem.name}</Text>
+                                  <Text fontSize={'20px' && foodItem.fontsizeXL}>
+                                    {foodItem.name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                                  </Text>
                                   <Text fontSize={'17px'}>{foodItem.price}</Text>
                                 </Flex>
                                 {foodItem.img}
@@ -68,14 +70,14 @@ function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex  display={['flex', 'flex', 'flex', 'none', 'none']}
-  bgImage={isIOS ? backgroundWoodImage : backgroundWoodImage}
-  bgSize="cover"      // Ensures full coverage without gaps
-  bgRepeat="no-repeat"  // Prevents repeating
-  bgPosition="center"
-  bgAttachment="fixed"  // Keeps it fixed on supported devices
-  w="full"
-  p={10}>
+      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}
+        bgImage={isIOS ? backgroundWoodImage : backgroundWoodImage}
+        bgSize="cover"      // Ensures full coverage without gaps
+        bgRepeat="no-repeat"  // Prevents repeating
+        bgPosition="center"
+        bgAttachment="fixed"  // Keeps it fixed on supported devices
+        w="full"
+        p={10}>
         <Flex gap={10} direction={'column'} align={'center'} w={'full'} pt={10}>
           <Text color={'white'} fontFamily={'Roboto'} pt={10} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.9'} p={6} w={'full'} bg={'#FFF'}>
@@ -87,14 +89,16 @@ function Menu() {
                     <Flex justify={'center'} align={'flex-start'} direction={'row'} wrap={'wrap'} gap={10} w={'full'}>
                       {item.secondaryChannel.map((itemSecond) => (
                         <Flex border={'2px solid #D8D4D4'} borderRadius={'25px'} gap={2} align={'center'} direction={'column'} w={'500px'} key={itemSecond.id}>
-                          <Text pt={4} fontSize={'21px'}>
+                          <Text pt={4} fontSize={'23px'}>
                             {itemSecond.foodListNames && itemSecond.foodListNames.charAt(0).toUpperCase() + itemSecond.foodListNames.slice(1)}
                           </Text>
                           <Flex pt={4} direction={'column'} w={'full'}>
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>
-                                  <Text fontSize={'20px'}>{foodItem.name}</Text>
+                                  <Text fontSize={'20px' && foodItem.fontsizeM}>
+                                    {foodItem.name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                                  </Text>
                                   <Text fontSize={'17px'}>{foodItem.price}</Text>
                                 </Flex>
                                 {foodItem.img}
