@@ -95,7 +95,7 @@ export const menu = [
             {
                 id: 3, foodListNames: 'կարկանդակ', foodList: [
                     { id: 1, name: 'պերաշկի ', price: '150 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={perashki} /> },
-                    { id: 2, name: 'պարազիտ ', price: '400 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={parazit} />},
+                    { id: 2, name: 'պարազիտ ', price: '450 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={parazit} />},
                     { id: 3, name: 'հավով ԵՎ գազարով ', price: '350 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havgazar} />},
                     { id: 4, name: 'հավով ԵՎ սնկով ', price: '450 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havsunk} />},
                     { id: 5, name: 'տավարի մսով ', price: '500 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={tavarimsov} />},
