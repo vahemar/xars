@@ -15,10 +15,10 @@ function Building() {
             </a>
           </Flex>
       </Flex>
-      <Flex wrap={'wrap'} justify={'center'} direction={'row'} gap={2} align={'center'}>
-        <Image borderRadius={'10px'} src={building1} />
-        <Image borderRadius={'10px'} src={building2} />
-        <Image borderRadius={'10px'} src={building3} />
+      <Flex wrap={'wrap'} justify={'center'} direction={'row'} gap={'5px'} align={'center'}>
+        <Image borderRadius={'5px'} src={building1} />
+        <Image borderRadius={'5px'} src={building2} />
+        <Image borderRadius={'5px'} src={building3} />
       </Flex>
     </Flex>
   )

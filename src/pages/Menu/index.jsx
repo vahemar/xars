@@ -33,13 +33,13 @@ function Menu() {
                 <Flex bg={'#F9F9F9'} w={'full'} gap={4} key={item.id} direction={'column'} align={'center'}>
                   <Text fontSize={'28px'}>{item.mainChannel}</Text>
                   <Flex pt={8} w={'full'} direction={'column'}>
-                    <Flex justify={'center'} align={'flex-start'} direction={'row'} wrap={'wrap'} gap={10} w={'full'}>
+                    <Flex justify={'center'} align={'flex-start'} direction={'row'} wrap={'wrap'} gap={6} w={'full'}>
                       {item.secondaryChannel.map((itemSecond) => (
                         <Flex border={'2px solid #D8D4D4'} borderRadius={'25px'} gap={2} align={'center'} direction={'column'} w={'320px'} key={itemSecond.id}>
-                          <Text pt={4} fontSize={'24px'}>
+                          <Text pt={2} fontSize={'24px'}>
                             {itemSecond.foodListNames && itemSecond.foodListNames.charAt(0).toUpperCase() + itemSecond.foodListNames.slice(1)}
                           </Text>
-                          <Flex pt={4} direction={'column'} w={'full'}>
+                          <Flex  direction={'column'} w={'full'}>
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>

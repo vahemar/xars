@@ -61,6 +61,7 @@ import havgazar from '../assets/png/havgazar.webp';
 import havsunk from '../assets/png/havsunk.webp';
 import tavarimsov from '../assets/png/tavarimsov.webp';
 import panir from '../assets/png/panir.webp';
+import zulal from '../assets/png/zulal.webp';
 import shaurmahacov from '../assets/png/hacovshaurma.webp';
 
 
@@ -71,49 +72,49 @@ export const menu = [
             {
                 id: 1, foodListNames: 'Մսեղեն', foodList: [
                     // { id: 1, name: '1 բաժին (շիշ) խորոված կարտոֆիլ', price: '500 դր', img: <Image h={'90px'} borderRadius={'15px'} w={'150px'} src={kartofil} /> },
-                    { id: 1, name: 'ԽՈՐՈՎԵԼԸ - 400 ԴՐԱՄ', fontsizeXL: '24px', fontsizeM: '22px' },
+                    { id: 1, name: 'ԽՈՐՈՎԵԼԸ +400 ԴՐԱՄ', fontsizeXL: '24px', fontsizeM: '22px' },
                     { id: 2, name: 'հավի բուդ', price: '2000 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havibud} /> },
                     { id: 3, name: 'հավի թև', price: '2200 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havitev} />  },
                     { id: 5, name: 'կուպատի', price: '2900 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={kupati} />},
                     { id: 4, name: 'փափուկ', price: '3100 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={papuk} /> },
                     { id: 6, name: 'չալաղաջ', price: '3200 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'130px'} src={chalaxaj} />  },
-                    { id: 7, name: 'մատ', price: '3200 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={mat} />  },
-                    { id: 8, name: 'շեյկա', price: '3200 դր/կգ', img: <Image h={'80px'} borderRadius={'15px'} w={'120px'} src={sheyka} /> },
+                    { id: 7, name: 'մատ', price: '3200 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'100px'} src={mat} />  },
+                    { id: 8, name: 'շեյկա', price: '3200 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'120px'} src={sheyka} /> },
                     { id: 9, name: 'ձուկ', price: '3800 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={dzuk} />  }
                 ]
             },
             {
                 id: 2, foodListNames: 'պիցցա', foodList: [
                     { id: 1, name: 'փոքր պիցցա ', price: '500 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={poqrpica} />},
-                    { id: 2, name: 'պեպերոնի 6 կտոր ', price: '2000 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={peperoni} />},
                     { id: 3, name: 'մարգարիտա 6 կտոր ', price: '1900 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={margarita} />},
-                    { id: 4, name: 'ասորտի 6 կտոր ', price: '2100 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={asorti} />},
                     { id: 5, name: 'իմերիթական 6 կտոր ', price: '1900 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={imeritakan} />},
+                    { id: 2, name: 'պեպերոնի 6 կտոր ', price: '2000 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={peperoni} />},
                     { id: 6, name: 'մեգրելական 6 կտոր ', price: '2000 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={megrelakan} />},
+                    { id: 4, name: 'ասորտի 6 կտոր ', price: '2100 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={asorti} />},
                 ]
             },
             {
                 id: 3, foodListNames: 'կարկանդակ', foodList: [
-                    { id: 1, name: 'պերաշկի ', price: '150 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={perashki} /> },
-                    { id: 2, name: 'պարազիտ ', price: '450 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={parazit} />},
-                    { id: 3, name: 'հավով ԵՎ գազարով ', price: '350 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havgazar} />},
-                    { id: 4, name: 'հավով ԵՎ սնկով ', price: '450 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havsunk} />},
-                    { id: 5, name: 'տավարի մսով ', price: '500 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={tavarimsov} />},
-                    { id: 6, name: 'պանրով ', price: '250 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'100px'} src={panir} />},
-                    { id: 7, name: 'սամսա հավով ', price: '450 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={samsa} />},
+                    { id: 1, name: 'Կարկանդակ պերաշկի ', price: '150 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={perashki} /> },
+                    { id: 6, name: 'Կարկանդակ պանրով ', price: '250 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'100px'} src={panir} />},
+                    { id: 3, name: 'Կարկանդակ հավով ԵՎ գազարով ', price: '350 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havgazar} />},
+                    { id: 4, name: 'Կարկանդակ հավով ԵՎ սնկով ', price: '450 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={havsunk} />},
+                    { id: 2, name: 'Կարկանդակ պարազիտ ', price: '450 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={parazit} />},
+                    { id: 7, name: 'Կարկանդակ սամսա հավով ', price: '450 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={samsa} />},
+                    { id: 5, name: 'Կարկանդակ տավարի մսով ', price: '500 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={tavarimsov} />},
                 ]
             },
             {
                 id: 4, foodListNames: 'Քյաբաբ', foodList: [
                     { id: 1, name: 'հավի քյաբաբ', price: '800 դր․', img: <Image h={'90px'} borderRadius={'15px'} w={'110px'} src={qyabab} /> },
-                    { id: 2, name: 'տավարի քյաբաբ', price: '900 դր․', img: <Image h={'90px'} borderRadius={'15px'} w={'130px'} src={pigkebab} /> },
+                    { id: 2, name: 'տավարի քյաբաբ', price: '900 դր․', img: <Image h={'90px'} borderRadius={'15px'} w={'110px'} src={pigkebab} /> },
                 ]
             },
            
             {
                 id: 5, foodListNames: 'լահմաջո', foodList: [
-                    { id: 1, name: 'լահմաջո մսով', price: '250 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={lahmajo} /> },
-                    { id: 2, name: 'լահմաջո մսով ԵՎ պանրով', price: '500 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={lahmajoPanir} />},
+                    { id: 1, name: 'լահմաջո մսով', price: '250 դր․', img: <Image h={'80px'} borderRadius={'15px'} w={'120px'} src={lahmajo} /> },
+                    { id: 2, name: 'լահմաջո մսով ԵՎ պանրով', price: '500 դր․', img: <Image h={'90px'} borderRadius={'15px'} w={'150px'} src={lahmajoPanir} />},
                 ]
             },
             {
@@ -132,20 +133,20 @@ export const menu = [
             },
             {
                 id: 8, foodListNames: 'աջարական', foodList: [
-                    { id: 1, name: 'աջարական մսով ', price: '1200 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'110px'} src={ajarakanmsov} />},
-                    { id: 2, name: 'աջարական վիչինայով ', price: '1300 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakanvichina} />},
-                    { id: 3, name: 'աջարական 2 ձվով ', price: '1100 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan2} />},
                     { id: 4, name: 'աջարական 1 ձվով ', price: '1000 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={ajarakan1} />},
+                    { id: 3, name: 'աջարական 2 ձվով ', price: '1100 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'120px'} src={ajarakan2} />},
+                    { id: 2, name: 'աջարական վիչինայով ', price: '1300 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'130px'} src={ajarakanvichina} />},
+                    { id: 1, name: 'աջարական մսով ', price: '1200 դր․' , img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={ajarakanmsov} />},
                 ]
             },
         
             {
                 id: 9, foodListNames: 'շաուրմա', foodList: [
-                    { id: 1, name: 'լոշիկով շաուրմա ', price: '1000 դր․', img: <Image h={'70px'} borderRadius={'15px'}  w={'120px'} src={loshikShaurma} />  },
                     { id: 2, name: 'հավի շաուրմա լավաշով', price: '1100 դր․', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={shaurma} /> },
-                    { id: 3, name: 'խոզի շաուրմա լավաշով', price: '1200 դր․', img: <Image h={'80px'} borderRadius={'15px'} w={'130px'} src={shaurmaxoz} /> },
                     { id: 4, name: 'հավի շաուրմա հացով', price: '600 դր․', img: <Image h={'80px'} borderRadius={'15px'} w={'130px'} src={shaurmahacov} /> },
+                    { id: 3, name: 'խոզի շաուրմա լավաշով', price: '1200 դր․', img: <Image h={'80px'} borderRadius={'15px'} w={'130px'} src={shaurmaxoz} /> },
                     { id: 5, name: 'խոզի շաուրմա հացով', price: '700 դր․', img: <Image h={'80px'} borderRadius={'15px'} w={'130px'} src={shaurmahacov} /> },
+                    { id: 1, name: 'լոշիկով շաուրմա ', price: '1000 դր․', img: <Image h={'70px'} borderRadius={'15px'}  w={'120px'} src={loshikShaurma} />  },
                 ]
             },
             {
@@ -192,33 +193,36 @@ export const menu = [
             },
             {
                 id: 4, foodListNames: 'թան', foodList: [
-                    { id: 1, name: 'թան 0.25լ', price: '250 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'90px'} src={tan05} /> },
-                    { id: 2, name: 'թան 0.5լ', price: '350 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'90px'} src={tan05} /> },
-                    { id: 3, name: 'թան 0.5լ (գազավորված)', price: '350 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'100px'} src={tan05gaz} /> },
-                    { id: 4, name: 'մածնաբրդոշ', price: '450 դր․' , img: <Image h={'90px'} borderRadius={'15px'} w={'87px'} src={akroshka} />  },
-                    { id: 5, name: 'տոմատի հյութ', price: '300 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'100px'} src={tomat} />  },
+                    { id: 1, name: 'թան 0.25լ', price: '300 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'90px'} src={tan05} /> },
+                    { id: 2, name: 'թան 0.5լ', price: '400 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'90px'} src={tan05} /> },
+                    { id: 3, name: 'թան 0.5լ (գազավորված)', price: '400 դր․' , img: <Image h={'110px'} borderRadius={'15px'} w={'100px'} src={tan05gaz} /> },
+                    { id: 4, name: 'մածնաբրդոշ', price: '400 դր․' , img: <Image h={'90px'} borderRadius={'15px'} w={'87px'} src={akroshka} />  },
+                    // { id: 5, name: 'տոմատի հյութ', price: '300 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'100px'} src={tomat} />  },
                 ]
             },
             {
                 id: 6, foodListNames: 'Yan', foodList: [
-
-                    { id: 1, name: 'Yan 1լ', price: '950 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'80px'} src={yan1} />},
                     { id: 2, name: 'Yan 0.25լ', price: '450 դր․' , img: <Image h={'90px'} borderRadius={'15px'} w={'110px'} src={yan03} />},
+                    { id: 1, name: 'Yan 1լ', price: '950 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'80px'} src={yan1} />},
                 ]
             },
             {
-                id: 7, foodListNames: 'Байкал', foodList: [
-                    { id: 1, name: 'Байкал', price: '250 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'90px'} src={baykal} />},
+                id: 9, foodListNames: 'ՋՈՒՐ', foodList: [
+                    { id: 1, name: 'Bon Aqua', price: '200 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'110px'} src={bonaqua} />},
+                    { id: 1, name: 'Zulal', price: '200 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'110px'} src={zulal} />},
+                    // { id: 1, name: 'Noy', price: '200 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'90px'} src={bonaqua} />},
+                
                 ]
             },
+         
             {
                 id: 8, foodListNames: 'Добрый', foodList: [
                     { id: 1, name: 'Добрый 0.3լ', price: '400 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'80px'} src={dobri} />},
                 ]
             },
             {
-                id: 9, foodListNames: 'bon Aqua', foodList: [
-                    { id: 1, name: 'Bon Aqua', price: '200 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'90px'} src={bonaqua} />},
+                id: 9, foodListNames: 'Байкал', foodList: [
+                    { id: 1, name: 'Байкал', price: '250 դր․' , img: <Image h={'100px'} borderRadius={'15px'} w={'90px'} src={baykal} />},
                 ]
             },
             {
