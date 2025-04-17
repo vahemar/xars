@@ -1,11 +1,11 @@
 import React from 'react';
-import { Flex, Text } from '@chakra-ui/react';
+import { Button, Flex, Text } from '@chakra-ui/react';
 import backgroundWoodImage from '../../assets/png/backgroundWood.webp';
 import highResBackground from '../../assets/png/backgroundWood.webp';
 import backgroundWoodImageIOS from '../../assets/png/backgroundWoodIOS.webp';
 import backgroundWoodImageIOS2 from '../../assets/png/backgroundWoodIO5.webp';
 import { menu } from '../../constants/constants';
-import { useLocation } from 'react-router';
+import { useLocation } from 'react-router-dom';
 
 function Menu() {
   const location = useLocation();
@@ -24,7 +24,8 @@ function Menu() {
 
   return (
     <Flex w={'full'}>
-      <Flex display={['none', 'none', 'none', 'flex', 'flex']} bgImage={backgroundWoodImage} bgSize={'cover'} bgRepeat={'repeat'} bgPosition={'center center'} bgAttachment={'fixed'} gap={20} direction={'column'} w={'full'} p={16} >
+      {/* Desktop View */}
+      <Flex display={['none', 'none', 'none', 'flex', 'flex']} bgImage={backgroundWoodImage} bgSize={'cover'} bgRepeat={'repeat'} bgPosition={'center center'} bgAttachment={'fixed'} gap={20} direction={'column'} w={'full'} p={16}>
         <Flex gap={12} direction={'column'} align={'center'} w={'full'} p={12}>
           <Text color={'white'} fontFamily={'Roboto'} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.9'} p={6} w={'full'} bg={'#F9F9F9'}>
@@ -39,7 +40,7 @@ function Menu() {
                           <Text pt={2} fontSize={'24px'}>
                             {itemSecond.foodListNames && itemSecond.foodListNames.charAt(0).toUpperCase() + itemSecond.foodListNames.slice(1)}
                           </Text>
-                          <Flex  direction={'column'} w={'full'}>
+                          <Flex direction={'column'} w={'full'}>
                             {itemSecond.foodList.map((foodItem) => (
                               <Flex p={2} gap={4} w={'full'} align={'center'} key={foodItem.id} direction={'row'} justify={'space-between'}>
                                 <Flex direction={'column'} align={'flex-start'}>
@@ -70,14 +71,9 @@ function Menu() {
           </Flex>
         </Flex>
       </Flex>
-      <Flex display={['flex', 'flex', 'flex', 'none', 'none']}
-        bgImage={isIOS ? backgroundWoodImage : backgroundWoodImage}
-        bgSize="cover"      // Ensures full coverage without gaps
-        bgRepeat="no-repeat"  // Prevents repeating
-        bgPosition="center"
-        bgAttachment="fixed"  // Keeps it fixed on supported devices
-        w="full"
-        p={10}>
+
+      {/* Mobile View */}
+      <Flex display={['flex', 'flex', 'flex', 'none', 'none']} bgImage={isIOS ? backgroundWoodImageIOS : backgroundWoodImage} bgSize="cover" bgRepeat="no-repeat" bgPosition="center" bgAttachment="fixed" w="full" p={10}>
         <Flex gap={10} direction={'column'} align={'center'} w={'full'} pt={10}>
           <Text color={'white'} fontFamily={'Roboto'} pt={10} fontSize={'30px'} fontWeight={500}>Ճաշացանկ</Text>
           <Flex direction={'column'} borderRadius={'15px'} opacity={'0.9'} p={6} w={'full'} bg={'#FFF'}>
