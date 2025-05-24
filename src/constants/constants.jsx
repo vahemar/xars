@@ -62,6 +62,7 @@ import havsunk from '../assets/png/havsunk.webp';
 import tavarimsov from '../assets/png/tavarimsov.webp';
 import panir from '../assets/png/panir.webp';
 import zulal from '../assets/png/zulal.webp';
+import sirttoq from '../assets/png/sirt.webp';
 import shaurmahacov from '../assets/png/hacovshaurma.webp';
 
 
@@ -73,13 +74,15 @@ export const menu = [
                 id: 1, foodListNames: 'Մսեղեն', foodList: [
                     // { id: 1, name: '1 բաժին (շիշ) խորոված կարտոֆիլ', price: '500 դր', img: <Image h={'90px'} borderRadius={'15px'} w={'150px'} src={kartofil} /> },
                     { id: 1, name: 'ԽՈՐՈՎԵԼԸ +400 ԴՐԱՄ', fontsizeXL: '24px', fontsizeM: '22px' },
-                    { id: 2, name: 'հավի բուդ', price: '2000 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havibud} /> },
-                    { id: 3, name: 'հավի թև', price: '2200 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havitev} />  },
+                    { id: 2, name: 'հավի բուդ', price: '1600 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havibud} /> },
+                    { id: 3, name: 'հավի թև', price: '1800 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={havitev} />  },
                     { id: 5, name: 'կուպատի', price: '2900 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={kupati} />},
-                    { id: 4, name: 'փափուկ', price: '3100 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={papuk} /> },
-                    { id: 6, name: 'չալաղաջ', price: '3200 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'130px'} src={chalaxaj} />  },
-                    { id: 7, name: 'մատ', price: '3200 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'100px'} src={mat} />  },
-                    { id: 8, name: 'շեյկա', price: '3200 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'120px'} src={sheyka} /> },
+                    { id: 4, name: 'փափուկ', price: '3700 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={papuk} /> },
+                    { id: 6, name: 'չալաղաջ', price: '3850 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'130px'} src={chalaxaj} />  },
+                    { id: 7, name: 'մատ', price: '3700 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'100px'} src={mat} />  },
+                    { id: 8, name: 'սիրտ-թոք (լիարդ)', price: '2800 դր/կգ', img: <Image h={'90px'} borderRadius={'15px'} w={'120px'} src={sirttoq} /> },
+
+                    { id: 8, name: 'շեյկա', price: '3800 դր/կգ', img: <Image h={'100px'} borderRadius={'15px'} w={'120px'} src={sheyka} /> },
                     { id: 9, name: 'ձուկ', price: '3800 դր/կգ', img: <Image h={'70px'} borderRadius={'15px'} w={'120px'} src={dzuk} />  }
                 ]
             },
@@ -172,7 +175,7 @@ export const menu = [
         id: 2, mainChannel: 'ԸՄՊԵԼԻՔՆԵՐ', secondaryChannel: [
             {
                 id: 1, foodListNames: 'Coca-Cola', foodList: [
-                    { id: 1, name: 'Coca-Cola 0.25լ', price: '300 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'60px'} src={kola025} /> },
+                    { id: 1, name: 'Coca-Cola 0.25լ', price: '350 դր․' , img: <Image h={'80px'} borderRadius={'15px'} w={'60px'} src={kola025} /> },
                     { id: 2, name: 'Coca-Cola 0.5լ', price: '400 դր․' , img: <Image h={'70px'} borderRadius={'15px'} w={'80px'} src={kola05} /> },
                     { id: 3, name: 'Coca-Cola 1լ', price: '650 դր․'  , img: <Image h={'90px'} borderRadius={'15px'} w={'56px'} src={kola1} />},
                 ]
