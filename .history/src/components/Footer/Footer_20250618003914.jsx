@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Image, Link } from '@chakra-ui/react'
+import { Flex, Text, Image } from '@chakra-ui/react'
 import xarsImage from '../../assets/svg/xarslogo.svg'
 import instagramXars from '../../assets/svg/icon-social-isnatgram.svg'
 import tiktokXars from '../../assets/svg/tiktok-icon.svg'
@@ -8,7 +8,7 @@ import tiktokXars from '../../assets/svg/tiktok-icon.svg'
 function Footer() {
   return (
     <Flex w={'full'}>
-      <Flex w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={6} pt={12} bg={'#742726'}>
+      <Flex w={'full'} display={['none', 'none', 'none', 'flex', 'flex']} align={'center'} gap={4} direction={'column'} justify={'center'} pb={6} pt={12}  bg={'#742726'}>
         <Flex direction={'column'} gap={'4px'} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
           <Image src={xarsImage} cursor={'pointer'} id='#home' width={'150px'} height={'150px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
@@ -20,32 +20,26 @@ function Footer() {
             </a>
             <Flex color={'#E7E7E7'} direction={'column'} gap={2} pt={'2px'} align={'center'}>
               {/* <Text>Հեռախոսահամար.</Text> */}
-              <Flex direction={'row'} gap={'4px'}>
-                <a href='tel:+091730771'>
-                  <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>091 730 771 /</Text>
-                </a>
-                <a href='tel:+093730771'>
-                  <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>093 730 771</Text>
-                </a>
+              <Flex direction={'row'}gap={'4px'}>
+              <a href='tel:+091730771'>
+                <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>091 730 771 /</Text>
+              </a>
+              <a href='tel:+093730771'>
+                <Text _hover={{ color: 'white' }} transition={'0.2s'} as='span'>093 730 771</Text>
+              </a>
               </Flex>
-
+            
             </Flex>
           </Flex>
           <Flex pt={4} gap={2}>
-            <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')} />
-            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')} />
+            <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')}/>
+            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
           </Flex>
-          <Flex pt={2}>
-            <Link href="mailto:info@xars.am" _hover={{ textDecoration: 'none' }}>
-              <Text color="#E7E7E7" _hover={{ color: 'white' }} cursor="pointer" transition="0.2s" as="span">
-                info@xars.am
-              </Text>
-            </Link>
-          </Flex>
+          <Flex
         </Flex>
       </Flex>
       <Flex w={'full'} display={['flex', 'flex', 'flex', 'none', 'none']} align={'center'} gap={4} direction={'column'} justify={'center'} pr={6} pl={4} pb={6} pt={8} bg={'#742726'}>
-        <Flex direction={'column'} gap={'4px'} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
+      <Flex direction={'column'} gap={'4px'} align={'center'} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} pointerEvents={'auto'} >
           <Image src={xarsImage} cursor={'pointer'} id='#home' width={'120px'} height={'120px'} fill='#FFF' stroke='#FFF' />
           <Text fontWeight={500} color={'white'} cursor={'pointer'} fontSize={'18px'}>Ղարս Թոնրատուն</Text>
         </Flex>
@@ -64,15 +58,8 @@ function Footer() {
             </Flex>
           </Flex>
           <Flex pt={4} direction='row' gap={2} align={'center'}>
-            <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')} />
-            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')} />
-          </Flex>
-          <Flex pt={2}>
-            <Link href="mailto:info@xars.am" _hover={{ textDecoration: 'none' }}>
-              <Text color="#E7E7E7" _hover={{ color: 'white' }} cursor="pointer" transition="0.2s" as="span">
-                info@xars.am
-              </Text>
-            </Link>
+          <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')}/>
+            <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')}/>
           </Flex>
         </Flex>
       </Flex>

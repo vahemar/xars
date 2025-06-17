@@ -67,13 +67,6 @@ function Footer() {
             <Image src={tiktokXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.tiktok.com/@xarstonratun', '_blank')} />
             <Image src={instagramXars} width={'30px'} height={'30px'} cursor={'pointer'} onClick={() => window.open('https://www.instagram.com/xarstonratun', '_blank')} />
           </Flex>
-          <Flex pt={2}>
-            <Link href="mailto:info@xars.am" _hover={{ textDecoration: 'none' }}>
-              <Text color="#E7E7E7" _hover={{ color: 'white' }} cursor="pointer" transition="0.2s" as="span">
-                info@xars.am
-              </Text>
-            </Link>
-          </Flex>
         </Flex>
       </Flex>
     </Flex>
